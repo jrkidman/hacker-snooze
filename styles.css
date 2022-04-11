@@ -1,0 +1,49 @@
+.body{
+    font-family: 'Oswald', sans-serif;
+}
+#header {
+    /* justify-content: left; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.header-item{
+    padding: 0px 6px 0px 0px;
+    /* border-right: 1px solid black; */
+
+
+}
+
+.navbar{
+    background-color: darkolivegreen;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.list-group{
+    background-color: rgb(145, 177, 89);
+    margin: 10px;
+}
+
+#refresh-logo{
+    border: solid black 1px;
+    padding: 4px;
+}
+
+#article {
+    padding: 10px;
+    margin: 10px;
+    border: white solid 2px;
+}
+
+#article-title{
+    color: darkmagenta;
+}
+
+@media screen and (max-width: 700px) {
+    #app {
+    font-size: 3em;
+    display: 100%;
+    }
+}
